@@ -16,20 +16,20 @@ export default function ProjectDetail() {
   // This would typically come from an API or database
   const projects = {
     project1: {
-      title: "Live2D Character",
+      title: "Live2D Character Pulita",
       description:
         "Interactive Live2D character with facial expressions and animations. This project showcases advanced Live2D techniques including physics-based hair and clothing movement, realistic eye tracking, and responsive facial expressions.",
       images: [
-        "/placeholder.svg?height=600&width=800",
+        "/img/pulita/pulita-thumbnail.png",
         "/placeholder.svg?height=600&width=800",
         "/placeholder.svg?height=600&width=800",
       ],
       category: "Live2D",
       link: "https://live2d-project.com",
-      videoId: "dQw4w9WgXcQ", // YouTube video ID
-      technologies: ["Live2D Cubism", "Photoshop", "After Effects"],
+      videoId: "hUm-qH6-zww", // YouTube video ID
+      technologies: ["Live2D Cubism", "ClipStudio Paint",],
       features: [
-        "Realistic facial expressions",
+        "facial expressions",
         "Physics-based hair and clothing",
         "Eye tracking",
         "Responsive animations",

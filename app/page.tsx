@@ -24,9 +24,9 @@ export default function Page() {
   const featuredProjects = [
     {
       id: "project1",
-      title: "Live2D Character",
+      title: "Live2D Character Pulita",
       description: "Interactive Live2D character with facial expressions and animations",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/img/pulita/pulita-thumbnail.png",
       category: "Live2D",
       link: "https://live2d-project.com",
     },
