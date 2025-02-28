@@ -118,7 +118,7 @@ export default function Page() {
             >
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">About Me</h2>
               <p className="text-muted-foreground">
-                I'm a creative developer passionate about building innovative digital experiences. With expertise in web
+              I&apos;m a creative developer passionate about building innovative digital experiences. With expertise in web
                 development, Live2D, and Unity, I bring ideas to life through clean code and engaging user interfaces.
               </p>
               <p className="text-muted-foreground">
