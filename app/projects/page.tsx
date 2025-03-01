@@ -18,10 +18,10 @@ export default function ProjectsPage() {
     },
     {
       id: "project2",
-      title: "Unity Game",
-      description: "3D adventure game built with Unity and C#",
-      image: "/placeholder.svg?height=400&width=600",
-      category: "Unity",
+      title: "Mewing Maiden",
+      description: "Tower defense game built with Unity and C# animate character with Live2D",
+      image: "/img/MewingMaiden/MewingMaiden-Thumbnail.png",
+      category: "Unity&Live2D",
       link: "https://unity-game.com",
     },
     {

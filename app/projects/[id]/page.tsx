@@ -38,7 +38,7 @@ export default function ProjectDetail() {
     project2: {
       title: "Unity Game",
       description:
-        "3D adventure game built with Unity and C#. This immersive game features a rich open world with dynamic weather systems, advanced AI for NPCs, and a compelling storyline that adapts to player choices.",
+        "3D adventure game built with Unity and C#. ",
       images: [
         "/placeholder.svg?height=600&width=800",
         "/placeholder.svg?height=600&width=800",
@@ -46,9 +46,9 @@ export default function ProjectDetail() {
       ],
       category: "Unity",
       link: "https://unity-game.com",
-      videoId: "dQw4w9WgXcQ", // YouTube video ID
-      technologies: ["Unity", "C#", "Blender", "FMOD"],
-      features: ["Open world environment", "Dynamic weather system", "Advanced AI", "Adaptive storyline"],
+      videoId: "nbZkcDlMiEM", // YouTube video ID
+      technologies: ["Unity", "C#", "Live2D", "ClipStudio Paint"],
+      features: ["Tower Defense", "Dynamic weather system", "Advanced AI", "Adaptive storyline"],
     },
     // Add more projects as needed
   }

@@ -28,35 +28,35 @@ export default function Page() {
       description: "Interactive Live2D character with facial expressions and animations",
       image: "/img/pulita/pulita-thumbnail.png",
       category: "Live2D",
-      link: "https://live2d-project.com",
+      link: process.env.NEXT_PUBLIC_LIVE2D_URL as string,
     },
     {
       id: "project2",
-      title: "Unity Game",
-      description: "3D adventure game built with Unity and C#",
-      image: "/placeholder.svg?height=400&width=600",
-      category: "Unity",
+      title: "Mewing Maiden",
+      description: "Tower defense game built with Unity and C# animate character with Live2D",
+      image: "/img/MewingMaiden/MewingMaiden-Thumbnail.png",
+      category: "Unity&Live2D",
       link: "https://unity-game.com",
     },
     {
       id: "project3",
-      title: "Web Application",
-      description: "Full-stack web application with React and Node.js",
-      image: "/placeholder.svg?height=400&width=600",
+      title: "E-Commerch-Web Store&Admin",
+      description: "Full-stack E-commerce web application with Nextjs",
+      image: "/img/eComWeb/eCom-Thumbnail.png",
       category: "Web",
       link: "#",
     },
     {
       id: "project4",
-      title: "Mobile App",
-      description: "Cross-platform mobile application",
-      image: "/placeholder.svg?height=400&width=600",
-      category: "Mobile",
+      title: "Makia Illustration (OC Character)",
+      description: "Original illustration",
+      image: "/img/Makia/Makia-Thumbnail.png",
+      category: "Illustration",
       link: "#",
     },
   ]
 
-  const skills = ["Live2D","Live2D SDK", "Unity", "React", "Next.js", "JavaScript", "TypeScript", "Clipstudio Paint",]
+  const skills = ["Live2D", "Unity", "Clipstudio Paint","Next.js", "React",  "JavaScript", "TypeScript","Flutter"]
 
   return (
     <div className="min-h-screen bg-background text-foreground">
@@ -103,7 +103,7 @@ export default function Page() {
           <div className="grid gap-12 md:grid-cols-2 items-center">
             <motion.div initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.5 }}>
               <Image
-                src="/placeholder.svg?height=600&width=600"
+                src="/img/Mypic/Myportpic.jpg"
                 alt="About"
                 width={600}
                 height={600}
