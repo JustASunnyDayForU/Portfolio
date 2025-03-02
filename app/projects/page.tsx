@@ -9,36 +9,32 @@ import Link from "next/link"
 export default function ProjectsPage() {
   const allProjects = [
     {
-      id: "project1",
+      id: "pulita",
       title: "Live2D Character Pulita",
       description: "Interactive Live2D character with facial expressions and animations",
       image: "/img/pulita/pulita-thumbnail.png",
       category: "Live2D",
-      link: process.env.NEXT_PUBLIC_LIVE2D_DEMO_URL,
     },
     {
-      id: "project2",
+      id: "mewing-maiden",
       title: "Mewing Maiden",
       description: "Tower defense game built with Unity and C# animate character with Live2D",
       image: "/img/MewingMaiden/MewingMaiden-Thumbnail.png",
       category: "Unity&Live2D",
-      link: "https://unity-game.com",
     },
     {
-      id: "project3",
-      title: "Web Application",
-      description: "Full-stack web application with React and Node.js",
-      image: "/placeholder.svg?height=400&width=600",
+      id: "e-commerce-fullstack",
+      title: "E-Commerch-Web Store&Admin",
+      description: "Full-stack E-commerce web application with Nextjs",
+      image: "/img/eComWeb/eCom-Thumbnail.png",
       category: "Web",
-      link: "#",
     },
     {
-      id: "project4",
-      title: "Mobile App",
-      description: "Cross-platform mobile application",
-      image: "/placeholder.svg?height=400&width=600",
-      category: "Mobile",
-      link: "#",
+      id: "makia",
+      title: "Makia Illustration (OC Character)",
+      description: "Original illustration",
+      image: "/img/Makia/Makia-Thumbnail.png",
+      category: "Illustration",
     },
     {
       id: "project5",
@@ -46,7 +42,6 @@ export default function ProjectsPage() {
       description: "Custom Live2D animation for streaming",
       image: "/placeholder.svg?height=400&width=600",
       category: "Live2D",
-      link: "https://live2d-animation.com",
     },
     {
       id: "project6",
@@ -54,7 +49,6 @@ export default function ProjectsPage() {
       description: "Detailed 3D character model for games",
       image: "/placeholder.svg?height=400&width=600",
       category: "3D Modeling",
-      link: "#",
     },
     {
       id: "project7",
@@ -62,7 +56,6 @@ export default function ProjectsPage() {
       description: "Comprehensive UI design system for web applications",
       image: "/placeholder.svg?height=400&width=600",
       category: "UI/UX",
-      link: "#",
     },
     {
       id: "project8",
@@ -70,7 +63,6 @@ export default function ProjectsPage() {
       description: "Interactive art installation using motion sensors",
       image: "/placeholder.svg?height=400&width=600",
       category: "Interactive",
-      link: "#",
     },
   ]
 

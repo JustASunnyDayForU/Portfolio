@@ -47,7 +47,7 @@ export function Navbar() {
             </Link>
           </Button>
           <Button asChild>
-            <Link href="https://live2d-website.com" target="_blank">
+            <Link href={process.env.NEXT_PUBLIC_LIVE2D_URL as string} target="_blank">
               View Live2D
             </Link>
           </Button>

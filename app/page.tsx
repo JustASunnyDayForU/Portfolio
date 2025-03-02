@@ -23,36 +23,32 @@ export default function Page() {
 
   const featuredProjects = [
     {
-      id: "project1",
+      id: "pulita",
       title: "Live2D Character Pulita",
       description: "Interactive Live2D character with facial expressions and animations",
       image: "/img/pulita/pulita-thumbnail.png",
       category: "Live2D",
-      link: process.env.NEXT_PUBLIC_LIVE2D_URL as string,
     },
     {
-      id: "project2",
+      id: "mewing-maiden",
       title: "Mewing Maiden",
       description: "Tower defense game built with Unity and C# animate character with Live2D",
       image: "/img/MewingMaiden/MewingMaiden-Thumbnail.png",
       category: "Unity&Live2D",
-      link: "https://unity-game.com",
     },
     {
-      id: "project3",
+      id: "e-commerce-fullstack",
       title: "E-Commerch-Web Store&Admin",
       description: "Full-stack E-commerce web application with Nextjs",
       image: "/img/eComWeb/eCom-Thumbnail.png",
       category: "Web",
-      link: "#",
     },
     {
-      id: "project4",
+      id: "makia",
       title: "Makia Illustration (OC Character)",
       description: "Original illustration",
       image: "/img/Makia/Makia-Thumbnail.png",
       category: "Illustration",
-      link: "#",
     },
   ]
 
