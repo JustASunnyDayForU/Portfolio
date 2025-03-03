@@ -13,7 +13,7 @@ type Project = {
   title: string
   description: string
   images: string[]
-  category: "Live2D" | "Unity" | "Web" | "3D" | "Game" | "Illustration" | "Mobile"
+  category: "Live2D" | "Unity" | "Web" | "3D" | "Unity&Live2D" | "Illustration" | "Mobile"
   link?: string
   videoId?: string
   technologies: string[]
@@ -50,14 +50,14 @@ const projects: Record<string, Project> = {
     ],
   },
   "mewing-maiden": {
-    title: "Tower Defense Game",
-    description: "3D adventure game built with Unity and C#.",
+    title: "Mewing Maiden",
+    description: "Tower defense game built with Unity and C# animate character with Live2D",
     images: [
       "/img/tower-defense/main.png",
       "/img/tower-defense/gameplay.png",
       "/img/tower-defense/characters.png",
     ],
-    category: "Game",
+    category: "Unity&Live2D",
     link: "https://unity-game.com",
     videoId: "nbZkcDlMiEM",
     technologies: [
@@ -68,9 +68,9 @@ const projects: Record<string, Project> = {
     ],
     features: [
       "Tower Defense",
-      "Dynamic weather system",
-      "Advanced AI",
-      "Adaptive storyline"
+      "Upgrade system",
+      "Unique tower abilities",
+      "Smooth animations with Live2D"
     ]
   },
   "e-commerce-fullstack": {
@@ -81,7 +81,7 @@ const projects: Record<string, Project> = {
       "/img/tower-defense/gameplay.png",
       "/img/tower-defense/characters.png",
     ],
-    category: "Game",
+    category: "Web",
     link: "https://unity-game.com",
     videoId: "nbZkcDlMiEM",
     technologies: [
@@ -111,6 +111,25 @@ const projects: Record<string, Project> = {
     ]
   },
   "P-Bow": {
+    title: "P'Bow Live2D Animation",
+    description: "Live2D animation for my friend's character in webtoon",
+    images: [
+      "/img/tower-defense/main.png",
+      "/img/P-Bow/P,Bow-FullPic.png",
+    ],
+    videoId : "U8PezhTxC4s",
+    category: "Live2D",
+    link: process.env.NEXT_PUBLIC_LIVE2D_URL as string,
+    technologies: [
+      "ClipStudio Paint",
+      "Live2D Cubism",
+    ],
+    features: [
+      "Idle Animation",
+      "Clicked Animation",
+    ]
+  },
+  "Fenny-Game": {
     title: "P'Bow Live2D Animation",
     description: "Live2D animation for my friend's character in webtoon",
     images: [
