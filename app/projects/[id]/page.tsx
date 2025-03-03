@@ -101,9 +101,7 @@ const projects: Record<string, Project> = {
     title: "Tower Defense Game",
     description: "3D adventure game built with Unity and C#.",
     images: [
-      "/img/tower-defense/main.png",
-      "/img/tower-defense/gameplay.png",
-      "/img/tower-defense/characters.png",
+      "/img/Makia/Makia-FullPic.png",
     ],
     category: "Illustration",
     technologies: [
@@ -192,15 +190,22 @@ export default function ProjectDetail() {
               />
             </div>
           ) : (
-            <Image
-              src={project.images[0] || "/placeholder.svg"}
-              alt={project.title}
-              width={1200}
-              height={675}
-              className="w-full aspect-video object-cover"
-            />
-          )}
-        </div>
+           <div className="relative rounded-lg overflow-hidden bg-muted group">
+      <div className="relative h-[50vh] md:h-[60vh] lg:h-[70vh] w-full">
+        <Image
+          src={project.images[0] || "/placeholder.svg"}
+          alt={project.title}
+          fill
+          className="object-contain transition-transform duration-300 group-hover:scale-[1.02]"
+          sizes="100vw"
+          priority
+        />
+      </div>
+      {/* Optional overlay for better text visibility */}
+      <div className="absolute" />
+    </div>
+  )}
+</div>
 
        {/* Image Gallery with Masonry Layout */}
 {project.images.length > 1 && (
