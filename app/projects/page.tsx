@@ -37,10 +37,10 @@ export default function ProjectsPage() {
       category: "Illustration",
     },
     {
-      id: "project5",
-      title: "Live2D Animation",
-      description: "Custom Live2D animation for streaming",
-      image: "/placeholder.svg?height=400&width=600",
+      id: "P-Bow",
+      title: "P'Bow Live2D Animation",
+      description: "Live2D animation for my friend's character in webtoon",
+      image: "/img/P-Bow/P-Bow-Thumbnail.png",
       category: "Live2D",
     },
     {

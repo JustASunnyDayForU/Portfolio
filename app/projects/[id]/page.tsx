@@ -110,10 +110,25 @@ const projects: Record<string, Project> = {
       "ClipStudio Paint"
     ],
     features: [
-      "Tower Defense",
-      "Dynamic weather system",
-      "Advanced AI",
-      "Adaptive storyline"
+    ]
+  },
+  "P-Bow": {
+    title: "P'Bow Live2D Animation",
+    description: "Live2D animation for my friend's character in webtoon",
+    images: [
+      "/img/tower-defense/main.png",
+      "/img/P-Bow/P,Bow-FullPic.png",
+    ],
+    videoId : "U8PezhTxC4s",
+    category: "Live2D",
+    link: process.env.NEXT_PUBLIC_LIVE2D_URL as string,
+    technologies: [
+      "ClipStudio Paint",
+      "Live2D Cubism",
+    ],
+    features: [
+      "Idle Animation",
+      "Clicked Animation",
     ]
   },
   // Add more projects here
@@ -187,25 +202,31 @@ export default function ProjectDetail() {
           )}
         </div>
 
-        {/* Image Gallery */}
-        {project.images.length > 1 && (
-          <div className="mb-8">
-            <h2 className="text-2xl font-bold mb-4">Project Gallery</h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-              {project.images.slice(1).map((image, index) => (
-                <div key={index} className="group relative rounded-lg overflow-hidden bg-muted">
-                  <Image
-                    src={image || "/placeholder.svg"}
-                    alt={`${project.title} - Image ${index + 2}`}
-                    width={400}
-                    height={300}
-                    className="aspect-video object-cover transition-transform group-hover:scale-105"
-                  />
-                </div>
-              ))}
-            </div>
+       {/* Image Gallery with Masonry Layout */}
+{project.images.length > 1 && (
+  <div className="mb-8">
+    <h2 className="text-2xl font-bold mb-4">Project Gallery</h2>
+    <div className="columns-1 md:columns-2 lg:columns-3 gap-4 space-y-4">
+      {project.images.slice(1).map((image, index) => (
+        <div 
+          key={index} 
+          className="group relative rounded-lg overflow-hidden bg-muted break-inside-avoid"
+        >
+          <div className="relative w-full">
+            <Image
+              src={image || "/placeholder.svg"}
+              alt={`${project.title} - Image ${index + 2}`}
+              width={1200}
+              height={800}
+              className="w-full h-auto object-cover transition-transform group-hover:scale-105"
+              sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
+            />
           </div>
-        )}
+        </div>
+      ))}
+    </div>
+  </div>
+)}
 
         {/* Additional Gallery (if exists) */}
         {project.gallery && (
