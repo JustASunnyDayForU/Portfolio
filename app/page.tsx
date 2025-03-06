@@ -44,11 +44,11 @@ export default function Page() {
       category: "Web",
     },
     {
-      id: "makia",
-      title: "Makia Illustration (OC Character)",
-      description: "Original illustration",
-      image: "/img/Makia/Makia-Thumbnail.png",
-      category: "Illustration",
+      id: "Fenny-Game",
+      title: "Fenny defense of the depth",
+      description: "Fenny is the game my team made in GameJamGlobal2025",
+      image: "/img/jam2025-game/jam2025game-Thumbnail.png",
+      category: "Unity&Live2D",
     },
   ]
 
@@ -114,12 +114,11 @@ export default function Page() {
             >
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">About Me</h2>
               <p className="text-muted-foreground">
-              I&apos;m a creative developer passionate about building innovative digital experiences. With expertise in web
-                development, Live2D, and Unity, I bring ideas to life through clean code and engaging user interfaces.
+              Hi I&apos;m a creative developer blending art and technology to craft engaging digital experiences. I specialize in Live2D animation for anime and game projects, focusing on immersive, interactive media.
+               I also build responsive web interfaces with NextJS, React, and TypeScript, and have experience with Unity, Live2DSDK integration, and anime-style illustration.
               </p>
               <p className="text-muted-foreground">
-                My background in both design and development allows me to create seamless experiences that are both
-                visually appealing and technically sound.
+              As a native Thai speaker fluent in English, I'm eager to bring my diverse skills to an internship in Live2D design, web, and game development.
               </p>
               <motion.div
                 className="flex justify-center pt-4"

@@ -23,25 +23,18 @@ export default function ProjectsPage() {
       category: "Unity&Live2D",
     },
     {
+      id: "mewing-maidenL2D",
+      title: "Mewing Maiden Live2D Gallery",
+      description: "Live2D Gallery from Mewing Maiden (game made with Unity and C# animate character with Live2D)",
+      image: "/img/MewwingMaiden-L2D/MewingMaidenL2D-Thumbnail.png",
+      category: "Live2D",
+    },
+    {
       id: "e-commerce-fullstack",
       title: "E-Commerch-Web Store&Admin",
       description: "Full-stack E-commerce web application with Nextjs",
       image: "/img/eComWeb/eCom-Thumbnail.png",
       category: "Web",
-    },
-    {
-      id: "makia",
-      title: "Makia Illustration (OC Character)",
-      description: "Original illustration",
-      image: "/img/Makia/Makia-Thumbnail.png",
-      category: "Illustration",
-    },
-    {
-      id: "P-Bow",
-      title: "P'Bow Live2D Animation",
-      description: "Live2D animation for my friend's character in webtoon",
-      image: "/img/P-Bow/P-Bow-Thumbnail.png",
-      category: "Live2D",
     },
     {
       id: "Fenny-Game",
@@ -58,19 +51,27 @@ export default function ProjectsPage() {
       category: "Live2D",
     },
     {
-      id: "Character-Design-L2D",
-      title: "Character Design Class Live2D",
-      description: "Live2D i made in my character design class",
-      image: "/placeholder.svg?height=400&width=600",
+      id: "makia",
+      title: "Makia Illustration (OC Character)",
+      description: "Original illustration",
+      image: "/img/Makia/Makia-Thumbnail.png",
+      category: "Illustration",
+    },
+    {
+      id: "P-Bow",
+      title: "P'Bow Live2D Animation",
+      description: "Live2D animation for my friend's character in webtoon",
+      image: "/img/P-Bow/P-Bow-Thumbnail.png",
       category: "Live2D",
     },
     {
-      id: "project8",
-      title: "Interactive Installation",
-      description: "Interactive art installation using motion sensors",
-      image: "/placeholder.svg?height=400&width=600",
-      category: "Interactive",
+      id: "Character-Design-L2D",
+      title: "Character Design Class Live2D",
+      description: "Live2D i made in my character design class",
+      image: "/img/CharDS/CharDS-Thumbnail.png",
+      category: "Live2D",
     },
+    //add pj here
   ]
 
   return (

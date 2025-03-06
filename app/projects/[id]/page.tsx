@@ -31,9 +31,8 @@ const projects: Record<string, Project> = {
     description: "Interactive Live2D character with facial expressions and animations",
     images: [
       "/img/pulita/pulita-thumbnail.png",
-      "/img/pulita/pulita-1.png",
-      "/img/pulita/pulita-2.png",
-      "/img/pulita/pulita-3.png",
+      "/img/pulita/pulita_FullBody.png",
+      "/img/pulita/texture_00.png",
     ],
     category: "Live2D",
     link: process.env.NEXT_PUBLIC_LIVE2D_URL as string,
@@ -54,11 +53,20 @@ const projects: Record<string, Project> = {
     description: "Tower defense game built with Unity and C# animate character with Live2D",
     images: [
       "/img/tower-defense/main.png",
-      "/img/tower-defense/gameplay.png",
-      "/img/tower-defense/characters.png",
+      "/img/MewingMaiden/MewingMaidenGame-1.png",
+      "/img/MewingMaiden/MewingMaidenGame-2.png",
+      "/img/MewingMaiden/MewingMaidenGame-3.png",
+      "/img/MewingMaiden/MewingMaidenGame-4.png",
+      "/img/MewingMaiden/MewingMaidenGame-5.png",
+      "/img/MewingMaiden/MewingMaidenGame-6.png",
+      "/img/MewingMaiden/MewingMaidenGame-7.png",
+      "/img/MewingMaiden/MewingMaidenGame-8.png",
+      "/img/MewingMaiden/MewingMaidenGame-9.png",
+      "/img/MewingMaiden/MewingMaidenGame-10.png",
+      "/img/MewingMaiden/MewingMaidenGame-11.png",
     ],
     category: "Unity&Live2D",
-    link: "https://unity-game.com",
+    link: "https://bototep.itch.io/mewingmaiden",
     videoId: "nbZkcDlMiEM",
     technologies: [
       "Unity",
@@ -74,27 +82,77 @@ const projects: Record<string, Project> = {
     ]
   },
   "e-commerce-fullstack": {
-    title: "E-Commerch-Web Store&Admin",
-    description: "Full-stack E-commerce web application with Nextjs",
+    title: "E-Commerch-Web Store&Admin(cant open due to planer scale terminate free plan)",
+    description: "Full-stack E-commerce web application with Nextjs tailwind and prisma im sorry i can only show the github because the planer scale terminate the free plan",
     images: [
-      "/img/tower-defense/main.png",
-      "/img/tower-defense/gameplay.png",
-      "/img/tower-defense/characters.png",
+      "/img/eComWeb/eCom-Thumbnail.png",
+      "/img/eComWeb/Ecom-1.png",
+      "/img/eComWeb/Ecom-2.png",
+      "/img/eComWeb/Ecom-3.png",
+      "/img/eComWeb/Ecom-4.png",
+      "/img/eComWeb/Ecom-5.png",
+      "/img/eComWeb/Ecom-6.png",
     ],
     category: "Web",
-    link: "https://unity-game.com",
-    videoId: "nbZkcDlMiEM",
+    link: "https://github.com/JustASunnyDayForU/e-commerce-store",
     technologies: [
-      "Unity",
-      "C#",
-      "Live2D",
-      "ClipStudio Paint"
+      "VsCode",
+      "Nextjs",
+      "Tailwindcss",
+      "Prisma",
+      "MySQL PlanerScale",
     ],
     features: [
-      "Tower Defense",
-      "Dynamic weather system",
-      "Advanced AI",
-      "Adaptive storyline"
+      "Admin Dashboard",
+      "Product Management",
+      "Filter & Search",
+      "cart & checkout",
+    ]
+  },
+  "Fenny-Game": {
+    title: "Fenny Defense Of The Depth",
+    description: "Fenny is the game my team made in GameJamGlobal2025 that is simple shooting bubble game with Live2D character you can merge the power up chibis with Q W E!",
+    images: [
+      "/img/tower-defense/main.png",
+      "/img/jam2025-game/Jam2025game-1.png",
+      "/img/jam2025-game/Jam2025game-2.png",
+      "/img/jam2025-game/Jam2025game-3.png",
+    ],
+    videoId : "l3rgOB5D08g",
+    category: "Unity&Live2D",
+    link: "https://bototep.itch.io/fenney",
+    technologies: [
+      "Unity",
+      "ClipStudio Paint",
+      "Live2D Cubism",
+    ],
+    features: [
+      "Simple shooting bubble game",
+      "you can combine the power up chibis!",
+      "Smooth animation with Live2D",
+    ]
+  },
+  "Fenny-L2D": {
+    title: "Fenny defense of the depth L2D Gallery",
+    description: "Live2D Gallery from Fenny defense of the depth (game made in GameJamGlobal2025)",
+    images: [
+      "/img/tower-defense/main.png",
+      "/img/jam2025-L2D/Jam2025Char-FullPic.png",
+      "/img/jam2025-L2D/Jam2025Char-Texture.png",
+      "/img/jam2025-L2D/Jam2025Piecer-Texture.png",
+    ],
+    videoId : "U8PezhTxC4s",
+    category: "Live2D",
+    link: process.env.NEXT_PUBLIC_LIVE2D_URL as string,
+    technologies: [
+      "ClipStudio Paint",
+      "Live2D Cubism",
+    ],
+    features: [
+      "Idle Animation",
+      "ATK Animation",
+      "Skill Usage Animation",
+      "AFK Animation",
     ]
   },
   "makia": {
@@ -129,14 +187,16 @@ const projects: Record<string, Project> = {
       "Clicked Animation",
     ]
   },
-  "Fenny-Game": {
-    title: "P'Bow Live2D Animation",
-    description: "Live2D animation for my friend's character in webtoon",
+  "Character-Design-L2D": {
+    title: "L2D from my Character Design Class",
+    description: "Live2D animation with 3 characters from my character design class",
     images: [
       "/img/tower-defense/main.png",
-      "/img/P-Bow/P,Bow-FullPic.png",
+      "/img/CharDS/CharDS-Rouge.png",
+      "/img/CharDS/CharDS-Priestess.png",
+      "/img/CharDS/CharDS-Knight.png",
     ],
-    videoId : "U8PezhTxC4s",
+    videoId : "hSoarS2jh3c",
     category: "Live2D",
     link: process.env.NEXT_PUBLIC_LIVE2D_URL as string,
     technologies: [
@@ -145,9 +205,37 @@ const projects: Record<string, Project> = {
     ],
     features: [
       "Idle Animation",
-      "Clicked Animation",
+      "BG&Effect Animation",
     ]
   },
+  "mewing-maidenL2D" : {
+    title: "Mewing Maiden Live2D Gallery",
+    description: "Live2D Gallery from Mewing Maiden (game made with Unity and C# animate character with Live2D)",
+    images: [
+      "/img/MewwingMaiden-L2D/MewingMaidenL2D-Thumbnail.png",
+      "/img/MewwingMaiden-L2D/MewingMaidenL2d-1.png",
+      "/img/MewwingMaiden-L2D/MewingMaidenL2d-2.png",
+      "/img/MewwingMaiden-L2D/MewingMaidenL2d-3.png",
+      "/img/MewwingMaiden-L2D/MewingMaidenL2d-4.png",
+      "/img/MewwingMaiden-L2D/MewingMaidenL2d-5.png",
+      "/img/MewwingMaiden-L2D/MewingMaidenL2d-6.png",
+      "/img/MewwingMaiden-L2D/MewingMaidenL2d-7.png",
+      "/img/MewwingMaiden-L2D/MewingMaidenL2d-8.png",
+      "/img/MewwingMaiden-L2D/MewingMaidenL2d-9.png",
+    ],
+    videoId : "IU-8tw2hniI",
+    category: "Live2D",
+    link: process.env.NEXT_PUBLIC_LIVE2D_URL as string,
+    technologies: [
+      "ClipStudio Paint",
+      "Live2D Cubism",
+    ],
+    features: [
+      "Tower&Enemy Idle Animation",
+      "Tower ATK Animation",
+      "Enemy Walk Animation",
+    ]
+  }, 
   // Add more projects here
 }
 
