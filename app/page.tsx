@@ -118,7 +118,7 @@ export default function Page() {
                I also build responsive web interfaces with NextJS, React, and TypeScript, and have experience with Unity, Live2DSDK integration, and anime-style illustration.
               </p>
               <p className="text-muted-foreground">
-              As a native Thai speaker fluent in English, I'm eager to bring my diverse skills to an internship in Live2D design, web, and game development.
+              As a native Thai speaker fluent in English, I&apos; eager to bring my diverse skills to an internship in Live2D design, web, and game development.
               </p>
               <motion.div
                 className="flex justify-center pt-4"
