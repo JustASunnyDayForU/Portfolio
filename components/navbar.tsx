@@ -42,7 +42,7 @@ export function Navbar() {
             <span className="sr-only">Toggle theme</span>
           </Button>
           <Button asChild variant="outline">
-            <Link href="/resume.pdf" target="_blank">
+            <Link href="/PDF/Threerith CV Resume.pdf" target="_blank">
               Resume
             </Link>
           </Button>
