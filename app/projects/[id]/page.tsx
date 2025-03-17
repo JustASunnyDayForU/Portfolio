@@ -156,10 +156,18 @@ const projects: Record<string, Project> = {
     ]
   },
   "makia": {
-    title: "Tower Defense Game",
-    description: "3D adventure game built with Unity and C#.",
+    title: "Illustration Gallery",
+    description: "My illustration gallery that i work on it as a hobby but i look forward to imporve it more!",
     images: [
       "/img/Makia/Makia-FullPic.png",
+      "/img/Makia/SeiaArmpit.png",
+      "/img/Makia/chrismasChanSig.png",
+      "/img/Makia/ASANAGI research3.png",
+      "/img/Makia/Atsuko summer.png",
+      "/img/Makia/ellen.png",
+      "/img/Makia/GameJam2.png",
+      "/img/Makia/hasumiSwimsuit.png",
+      "/img/Makia/makia hood.png"
     ],
     category: "Illustration",
     technologies: [
@@ -174,6 +182,7 @@ const projects: Record<string, Project> = {
     images: [
       "/img/tower-defense/main.png",
       "/img/P-Bow/P,Bow-FullPic.png",
+      "/img/P-Bow/texture_00.png"
     ],
     videoId : "U8PezhTxC4s",
     category: "Live2D",
@@ -195,6 +204,9 @@ const projects: Record<string, Project> = {
       "/img/CharDS/CharDS-Rouge.png",
       "/img/CharDS/CharDS-Priestess.png",
       "/img/CharDS/CharDS-Knight.png",
+      "/img/CharDS/Rouge_Texture.png",
+      "/img/CharDS/Priestess_Texture.png",
+      "/img/CharDS/Knight_Texture.png"
     ],
     videoId : "hSoarS2jh3c",
     category: "Live2D",

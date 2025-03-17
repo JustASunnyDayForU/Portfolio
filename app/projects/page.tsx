@@ -52,8 +52,8 @@ export default function ProjectsPage() {
     },
     {
       id: "makia",
-      title: "Makia Illustration (OC Character)",
-      description: "Original illustration",
+      title: "Illustration Gallery",
+      description: "My illustration gallery",
       image: "/img/Makia/Makia-Thumbnail.png",
       category: "Illustration",
     },
