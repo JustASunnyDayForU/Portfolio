@@ -2,7 +2,7 @@
 
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { MoonIcon, SunIcon } from "lucide-react"
+import { MoonIcon, SunIcon, FileText } from "lucide-react"
 import { useTheme } from "next-themes"
 import { usePathname } from "next/navigation"
 import { cn } from "@/lib/utils"
@@ -44,6 +44,11 @@ export function Navbar() {
           <Button asChild variant="outline">
             <Link href="/PDF/Threerith CV Resume.pdf" target="_blank">
               Resume
+            </Link>
+          </Button>
+          <Button asChild variant="outline">
+            <Link href="/PDF/Live2D-Tutorial.pdf" target="_blank" title="Live2D Tutorial">
+              <FileText className="h-4 w-4 mr-2" />
             </Link>
           </Button>
           <Button asChild>

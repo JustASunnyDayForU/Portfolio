@@ -141,7 +141,7 @@ const projects: Record<string, Project> = {
       "/img/jam2025-L2D/Jam2025Char-Texture.png",
       "/img/jam2025-L2D/Jam2025Piecer-Texture.png",
     ],
-    videoId : "U8PezhTxC4s",
+    videoId : "zrSwoD_zzYk",
     category: "Live2D",
     link: process.env.NEXT_PUBLIC_LIVE2D_URL as string,
     technologies: [

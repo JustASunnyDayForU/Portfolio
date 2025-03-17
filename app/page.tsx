@@ -3,7 +3,7 @@
 import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
-import { MoonIcon, SunIcon, Copy, Mail, Github, Linkedin, Twitter, ChevronDown } from "lucide-react"
+import { MoonIcon, SunIcon, Copy, Mail, Github, Linkedin, Twitter, ChevronDown, FileText } from "lucide-react"
 import { useTheme } from "next-themes"
 import Image from "next/image"
 import Link from "next/link"
@@ -84,6 +84,11 @@ export default function Page() {
                 Resume
               </Link>
             </Button>
+            <Button asChild variant="outline">
+            <Link href="/PDF/Live2D-Tutorial.pdf" target="_blank" title="Live2D Tutorial">
+              <FileText className="h-4 w-4 mr-2" />
+            </Link>
+          </Button>
             <Button asChild>
               <Link href={process.env.NEXT_PUBLIC_LIVE2D_URL as string} target="_blank">
                 View Live2D
