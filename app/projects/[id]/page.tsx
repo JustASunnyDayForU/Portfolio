@@ -159,6 +159,7 @@ const projects: Record<string, Project> = {
     title: "Illustration Gallery",
     description: "My illustration gallery that i work on it as a hobby but i look forward to imporve it more!",
     images: [
+      "/img/Makia/raorarraceQueen.png",
       "/img/Makia/Makia-FullPic.png",
       "/img/Makia/SeiaArmpit.png",
       "/img/Makia/chrismasChanSig.png",

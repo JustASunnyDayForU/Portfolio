@@ -54,7 +54,7 @@ export default function ProjectsPage() {
       id: "makia",
       title: "Illustration Gallery",
       description: "My illustration gallery",
-      image: "/img/Makia/Makia-Thumbnail.png",
+      image: "/img/Makia/raorarraceQueenThumbnail.png",
       category: "Illustration",
     },
     {
