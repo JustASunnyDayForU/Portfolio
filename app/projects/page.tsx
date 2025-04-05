@@ -30,6 +30,13 @@ export default function ProjectsPage() {
       category: "Live2D",
     },
     {
+      id: "OrientalResort",
+      title: "Oriental Resort Website Mockup",
+      description: "Mockup website for a resort with reference from my senior example PDF",
+      image: "/img/BeachResort/Oriental.png",
+      category: "Live2D",
+    },
+    {
       id: "e-commerce-fullstack",
       title: "E-Commerch-Web Store&Admin",
       description: "Full-stack E-commerce web application with Nextjs",

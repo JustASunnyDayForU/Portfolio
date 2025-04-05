@@ -248,6 +248,21 @@ const projects: Record<string, Project> = {
       "Tower ATK Animation",
       "Enemy Walk Animation",
     ]
+  },
+  "OrientalResort" : {
+    title: "Oriental Resort Website Mockup",
+    description: "Mockup website for a resort with reference from my senior example PDF",
+    images: [
+    ],
+    videoId : "GvTomjDohtQ",
+    category: "Web",
+    technologies: [
+      "NuxtJs",
+      "Tailwind",
+    ],
+    features: [
+      "Mock Up",
+    ]
   }, 
   // Add more projects here
 }
